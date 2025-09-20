@@ -1,6 +1,6 @@
 # 零售信贷系统 MCP Server 示例
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-17%2B-orange)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 这个示例项目展示了如何使用Spring AI的MCP注解创建一个零售信贷系统的MCP服务器。它演示了如何使用Java注解以声明式的方式实现MCP服务器功能，包括工具的注册和使用。
