@@ -239,3 +239,21 @@ public class LoanCreditProvider {
 4. **loan_contract** - 贷款合同表
 5. **repayment_plan** - 还款计划表
 6. **overdue_record** - 逾期记录表
+
+## 使用方法
+
+在 AgentOps 智能体平台中，使用如下信息配置 MPC Server，以供智能体开发用。
+
+```json
+{
+  "mcpServers": {
+    "amap-maps": {
+      "name": "零售信贷业务组件",
+      "description": "零售信贷业务组件，包含额度查询、贷款余额查询、还款计划查询和逾期记录查询等5个MCP工具。",
+      "type": "streamable_http",
+      "url": "http://xx.xx.xx.xx:9081/mcp"
+    }
+  }
+}
+```
+
