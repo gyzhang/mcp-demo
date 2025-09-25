@@ -61,6 +61,12 @@
 
 ## 运行服务器
 
+项目内配置的是Streamable-HTTP，直接使用如下命令启动：
+
+```bash
+nohup java -jar ./mcp-loan-server-20250920.jar > ./mcp-loan.log 2>&1 &
+```
+
 服务器支持两种传输模式：
 
 ### WebMVC SSE/Streamable-HTTP/Stateless模式
