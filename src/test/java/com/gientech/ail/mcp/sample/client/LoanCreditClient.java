@@ -10,7 +10,7 @@ public class LoanCreditClient {
 
     public static void main(String[] args) {
         // 创建HTTP客户端传输对象，连接到本地运行的MCP服务器（默认端口8080）
-        HttpClientStreamableHttpTransport transport = HttpClientStreamableHttpTransport.builder("http://47.109.137.124:9081")
+        HttpClientStreamableHttpTransport transport = HttpClientStreamableHttpTransport.builder("http://localhost:9081")
                 .build();
 
         // 创建并运行LoanCreditTestClient，测试所有5个信贷系统工具
